@@ -20,10 +20,14 @@ public class Dadinho {
         this.tipoFuros = tipoFuro;
     }
     
+    public void metodoQueAcessaMetodoPrivado(){
+        metodoPrivado();
+    }
+    
     private void metodoPrivado(){
         System.out.println("Acesso ao método privado");
     }
-    
+       
     protected void metodoProtegido(){
         System.out.println("Acesso ao método protegido");
     }

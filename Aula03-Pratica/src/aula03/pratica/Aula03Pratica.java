@@ -13,6 +13,7 @@ public class Aula03Pratica {
         dado.statusDado();
         dado.metodoProtegido();
         //dado.metodoPrivado();
+        dado.metodoQueAcessaMetodoPrivado();
     }
     
 }
